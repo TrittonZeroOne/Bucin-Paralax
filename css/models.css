@@ -71,3 +71,7 @@ body{
 .description p{
 	font-size: 1.1em;
 }
+.button{
+	font-size: 1.1rem;
+	color: white;
+}

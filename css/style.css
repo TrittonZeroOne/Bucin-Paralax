@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glowing</title>
-    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+        *{
+            font-family: 'Poppins',cursive;
+        }
         body{
             margin: 0;
             padding: 0;
             background: #262626;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
         ul{
             position: absolute;
@@ -22,7 +23,7 @@
         ul li{
             list-style: none;
             font-family: arial;
-            font-size: 3em;
+            font-size: 5em;
             letter-spacing: 15px;
             text-shadow: none;
             animation: animate 1s infinite linear;
@@ -93,19 +94,15 @@
         ul li:nth-child(7){
             animation-delay: 1.4s;
         }
-    </style>
-</head>
-<body>
-    <h3><a href="index.html">Kembali</a></h3>
-    <ul>
-        <li>I</li>
-        <li>L</li>
-        <li>O</li>
-        <li>V</li>
-        <li>E</li>
-        <li>Y</li>
-        <li>O</li>
-        <li>U</li>
-    </ul>
-</body>
-</html>
+        .description{
+        font-size: 1.5rem;
+        color: white;
+        margin-top: 500px;
+        margin-bottom: 20px;
+        text-align: center;
+        }
+        .button a{
+        text-decoration: none;
+        font-size: 1rem;
+        color: #111;
+        }
